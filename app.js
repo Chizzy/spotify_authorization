@@ -141,4 +141,4 @@ app.get('/refresh_token', (req, res) => {
 });
 
 console.log('Listening on 8888');
-app.listen(8888);
+app.listen('https://spotify-auth-backend.herokuapp.com/');
