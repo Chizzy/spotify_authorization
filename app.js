@@ -140,5 +140,6 @@ app.get('/refresh_token', (req, res) => {
   });
 });
 
+const port = process.env.PORT || 8888
 console.log('Listening on 8888');
-app.listen('https://spotify-auth-backend.herokuapp.com/');
+app.listen(port);
